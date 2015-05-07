@@ -19,10 +19,10 @@ import base64
 # Global Variables #
 ####################
 
-teamname = "Team XX"  # Change value to reflect your team name
+teamname = "Team NaAr159"  # Change value to reflect your team name
 
 # Telstra VM Server Info
-TelstraVMServerUrl = "http://XXX.XXX.XXX.XXX/api/position"  # Target M2M server for JSON upload
+TelstraVMServerUrl = "http://203.42.134.221/api/position"  # Target M2M server for JSON upload
 DELAY = 10 # Seconds. Delay between GPS fixes.
 uploadfreq = 6 #Sets upload rate = (DELAY*uploadfreq) after JSON post.
 uploadcounter = uploadfreq
